@@ -27,6 +27,30 @@ Open PowerShell in the repo folder:
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\setup_window_dxf_dev_windows.ps1
+If you want to show a custom run too:
+
+## Example with custom dimensions
+
+```console
+$ python window_trim_dxf_generator.py
+
+Output DXF file [window_trim_elevation.dxf]: front_window.dxf
+Overall outside trim width [75.0]: 80
+Overall outside trim height, including sill/apron [72.5]: 74
+Left/right casing width [5.5]: 5
+Top/head casing height [5.5]: 5
+Bottom sill/apron height [4.5]: 4
+Sill projection past side casing, each side [2.0]: 2
+Center mullion width between two windows [3.5]: 3.5
+Sash/frame border width [2.0]: 2
+Meeting rail height [2.0]: 2
+Muntin line width [0.75]: 0.75
+Glass columns per sash [3]: 3
+Glass rows per full window unit [6]: 6
+Horizontal lap siding exposure [4.0]: 4
+Siding field margin around window [12.0]: 12
+
+Created DXF: /path/to/front_window.dxf
 
 ## Full test
 
