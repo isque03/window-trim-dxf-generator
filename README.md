@@ -27,7 +27,7 @@ Open PowerShell in the repo folder:
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\setup_window_dxf_dev_windows.ps1
-If you want to show a custom run too:
+```
 
 ## Example with custom dimensions
 
@@ -51,6 +51,7 @@ Horizontal lap siding exposure [4.0]: 4
 Siding field margin around window [12.0]: 12
 
 Created DXF: /path/to/front_window.dxf
+```
 
 ## Full test
 
