@@ -20,6 +20,13 @@ On macOS, to install LibreCAD too:
 ```bash
 ./setup_window_dxf_dev.sh
 ```
+## Windows 11 setup
+
+Open PowerShell in the repo folder:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\setup_window_dxf_dev_windows.ps1
 
 ## Full test
 
